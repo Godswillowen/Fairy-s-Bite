@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairy's Bites - Delicious Treats</title>
+    <link rel="shortcut icon" href="Favicon.jfif" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Our Products</a>
+            <a href="#about">About Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </div>
+    
+    <button class="menu-toggle">
+        <i class="fas fa-burger"></i>
+    </button>
+    
+    <!-- Header -->
+    <header id="home">
+        <h1>Fairy's Bites</h1>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h2>Delight in Every Bite</h2>
+            <p>Order warm, delicious treats right from your phone and experience bakery magic!</p>
+            <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20an%20order!" class="btn" target="_blank">Order Now</a>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <h2 class="section-title" data-aos="">Our Delicious Treats</h2>
+        <p class="section-subtitle" data-aos="zoom-in" data-aos-delay="100">We have different snack packs and cakes to suit your cravings and occasions</p>
+        
+        <div class="category-buttons" data-aos="fade-up" data-aos-delay="200">
+            <button class="category-btn active" data-category="all">All Products</button>
+            <button class="category-btn" data-category="cakes">Cakes</button>
+            <button class="category-btn" data-category="pies">Pies</button>
+            <button class="category-btn" data-category="doughnuts">Doughnuts</button>
+            <button class="category-btn" data-category="smallchops">Small Chops</button>
+        </div>
+        
+        <div class="products">
+            <!-- Birthday Cake -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in">
+                <div class="product-badge">Bestseller</div>
+                <img src="Big cake.jpg" alt="Birthday Cake">
+                <div class="product-info">
+                    <h3>Birthday Cake</h3>
+                    <p>Perfect for celebrations with rich flavors</p>
+                    <span class="product-price">₦3,000</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Birthday%20Cake!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Banana Bread -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="100">
+                <img src="Banana bread.jpg" alt="Banana Bread">
+                <div class="product-info">
+                    <h3>Banana Bread</h3>
+                    <p>Moist and flavorful homemade banana bread</p>
+                    <span class="product-price">₦1,500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Banana%20Bread!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Chin-chin -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Chin-chin.jpg" alt="Chin-chin">
+                <div class="product-info">
+                    <h3>Chin-chin</h3>
+                    <p>Crunchy Nigerian snack perfect for any time</p>
+                    <span class="product-price">₦100</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Chin-chin!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Meat Pie -->
+            <div class="product-card" data-category="pies" data-aos="zoom-in" data-aos-delay="300">
+                <div class="product-badge">Popular</div>
+                <img src="Meat pie.jpg" alt="Meat pie">
+                <div class="product-info">
+                    <h3>Meat Pie</h3>
+                    <p>Flaky pastry filled with savory meat</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Meat%20Pie!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Doughnut -->
+            <div class="product-card" data-category="doughnuts" data-aos="zoom-in" data-aos-delay="400">
+                <img src="Doughnuts.jpg" alt="Milky Doughnut">
+                <div class="product-info">
+                    <h3>Doughnut</h3>
+                    <p>Soft, fluffy doughnuts with various toppings</p>
+                    <span class="product-price">₦3,000</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Doughnut!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Small-chops -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="500">
+                <img src="small chops 2.jpg" alt="Small-chops">
+                <div class="product-info">
+                    <h3>Small-chops</h3>
+                    <p>Assorted bite-sized party snacks</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Small%20chops!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+
+             <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="500">
+                <img src="packs of Small chops.jpg" alt="Small-chops">
+                <div class="product-info">
+                    <h3>Packs of small chops</h3>
+                    <p>Assorted bite-sized party snacks</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Small%20chops!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Muffin -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="100">
+                <img src="Muffins.jpg" alt="Muffin">
+                <div class="product-info">
+                    <h3>Muffin</h3>
+                    <p>Soft and moist muffins in various flavors</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Muffin!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Cookies -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="200">
+                <img src="small chops 2.jpg" alt="Cookies">
+                <div class="product-info">
+                    <h3>Cookies</h3>
+                    <p>Delicious homemade cookies</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Cookies!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Cupcakes -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="300">
+                <img src="Cupcake with icing.jpg" alt="Cupcakes">
+                <div class="product-info">
+                    <h3>Cupcakes</h3>
+                    <p>Beautifully decorated cupcakes</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Cupcakes!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Foil cakes -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="400">
+                <img src="foil cake.jpg" alt="Foil cakes">
+                <div class="product-info">
+                    <h3>Foil cakes</h3>
+                    <p>Individual portion cakes in foil</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Foil%20cakes!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Vanilla cake -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="500">
+                <img src="vanilla cake.jpg" alt="Vanilla cake">
+                <div class="product-info">
+                    <h3>Vanilla cake</h3>
+                    <p>Classic vanilla flavor cake</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Vanilla%20cake!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Red velvet cake -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="100">
+                <div class="product-badge">Special</div>
+                <img src="Red velvet cake.jpg" alt="Red velvet cake">
+                <div class="product-info">
+                    <h3>Red velvet cake</h3>
+                    <p>Rich red velvet with cream cheese</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Red%20velvet%20cake!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Chocolate cake -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Chocolate cake.jpg" alt="Chocolate cake">
+                <div class="product-info">
+                    <h3>Chocolate cake</h3>
+                    <p>Decadent chocolate delight</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Chocolate%20cake!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Banana bread -->
+            <div class="product-card" data-category="cakes" data-aos="zoom-in" data-aos-delay="300">
+                <img src="Banana bread.jpg" alt="Banana bread">
+                <div class="product-info">
+                    <h3>Banana bread</h3>
+                    <p>Homemade with ripe bananas</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Banana%20bread!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Spring roll -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="400">
+                <img src="Spring rolls.jpg" alt="Spring roll">
+                <div class="product-info">
+                    <h3>Spring roll</h3>
+                    <p>Crispy vegetable spring rolls</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Spring%20roll!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Samosa -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="500">
+                <img src="Samosa.jpg" alt="Samosa">
+                <div class="product-info">
+                    <h3>Samosa</h3>
+                    <p>Spicy triangular pastry snacks</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Samosa!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Money bag -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="100">
+                <img src="money bag.jpg" alt="Money bag">
+                <div class="product-info">
+                    <h3>Money bag</h3>
+                    <p>Delicious pastry shaped like money bags</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Money%20bag!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Small-chops with beef -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Small chops with beef.jpg" alt="Small-chops with beef">
+                <div class="product-info">
+                    <h3>Small-chops with beef</h3>
+                    <p>Assorted snacks with beef filling</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Small-chops%20with%20beef!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Fish roll -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="300">
+                <img src="Fish rolls.jpg" alt="Fish roll">
+                <div class="product-info">
+                    <h3>Fish roll</h3>
+                    <p>Flaky pastry with fish filling</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Fish%20roll!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Egg roll -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="400">
+                <img src="egg roll.jpg" alt="Egg roll">
+                <div class="product-info">
+                    <h3>Egg roll</h3>
+                    <p>Delicious egg-filled pastry</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Egg%20roll!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Cinnamon rolls -->
+            <div class="product-card" data-category="doughnuts" data-aos="zoom-in" data-aos-delay="500">
+                <img src="small chops 2.jpg" alt="Cinnamon rolls">
+                <div class="product-info">
+                    <h3>Cinnamon rolls</h3>
+                    <p>Sweet rolls with cinnamon sugar</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Cinnamon%20rolls!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Fish pies -->
+            <div class="product-card" data-category="pies" data-aos="zoom-in" data-aos-delay="100">
+                <img src="Fish pies.jpg" alt="Fish pies">
+                <div class="product-info">
+                    <h3>Fish pies</h3>
+                    <p>Savory pies with fish filling</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Fish%20pies!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Chicken pie -->
+            <div class="product-card" data-category="pies" data-aos="zoom-in" data-aos-delay="200">
+                <img src="Chicken pie.jpg" alt="Chicken pie">
+                <div class="product-info">
+                    <h3>Chicken pie</h3>
+                    <p>Flaky pastry with chicken filling</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Chicken%20pie!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+            
+            <!-- Crispy chicken -->
+            <div class="product-card" data-category="smallchops" data-aos="zoom-in" data-aos-delay="300">
+                <img src="Crispy chicken.jpg" alt="Crispy chicken">
+                <div class="product-info">
+                    <h3>Crispy chicken</h3>
+                    <p>Golden fried chicken pieces</p>
+                    <span class="product-price">₦500</span>
+                    <a href="https://wa.me/2347063676118?text=Hello%20Fairy's%20Bites,%20I'd%20like%20to%20place%20order%20for%20Crispy%20chicken!" class="btn" target="_blank">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-image" data-aos="fade-right">
+                <img src="Logo2.jpg" alt="Bakery">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h2>About Fairy's Bites</h2>
+                <p>Welcome to Fairy's Bites, where we create magical treats that delight your senses! Founded in Akwa Ibom, we've been serving delicious baked goods with love and care.</p>
+                <p>Our passion for baking started as a small home business and has grown into a beloved local bakery. We use only the finest ingredients to create our cakes, pies, doughnuts, and small chops.</p>
+                <p>Every bite is crafted with attention to detail and a sprinkle of fairy magic. Whether you're celebrating a special occasion or just craving something sweet, we've got you covered!</p>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title" data-aos="">What Our Customers Say</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Don't just take our word for it - hear from our happy customers!</p>
+        
+        <div class="testimonial-container">
+            <div class="testimonial-card" data-aos="fade-up">
+                <div class="testimonial-text">
+                    "The birthday cake I ordered was absolutely stunning and delicious! Fairy's Bites made my daughter's birthday extra special. Will definitely order again!"
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Mrs. Johnson</h4>
+                        <p>Happy Customer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-text">
+                    "I'm addicted to their meat pies! The crust is so flaky and the filling is perfectly seasoned. Best in town, hands down."
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Mr. Adebayo</h4>
+                        <p>Regular Customer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="testimonial-text">
+                    "Ordered small chops for my wedding and they were a huge hit! Beautiful presentation and tasted amazing. Fairy's Bites made our special day even more memorable."
+                </div>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                    <div class="author-info">
+                        <h4>Mrs. Okon</h4>
+                        <p>Wedding Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h2>Get In Touch</h2>
+                <p>Have questions or want to place an order? We'd love to hear from you! Reach out through any of the channels below or visit us at our location.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>AKSU-Ikot Akpaden, Akwa Ibom</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>07063676118, 09119195116</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>fairysbites@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>07063676118</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form" data-aos="fade-left">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <h2 class="section-title" data-aos="">Frequently Asked Questions</h2>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Find answers to common questions about our products and services</p>
+        
+        <div class="faq-container">
+            <div class="faq-item" data-aos="fade-up">
+                <button class="faq-question">
+                    Are the snacks laced with any substance?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        No, absolutely not. The snacks are purely for enjoyment and do not contain any harmful or illegal substances. We use only high-quality, natural ingredients in all our products.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                <button class="faq-question">
+                    How long does delivery take?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Delivery typically takes 1 hour max within Akwa Ibom and 3-5 business days for other states in Nigeria. For urgent orders, please contact us directly to discuss expedited options.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                <button class="faq-question">
+                    What payment methods do you accept?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We accept bank transfers, cash on delivery (within Akwa Ibom only), and payments via WhatsApp (using secure payment links). For large orders, a 50% deposit may be required.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <button class="faq-question">
+                    Can I customize my order?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! We love creating custom orders. Whether you need a special cake design, specific flavors, or a custom snack pack, we can accommodate your request. Please message us on WhatsApp at least 3 days in advance for custom orders.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <button class="faq-question">
+                    Do you offer refunds?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We offer refunds or replacements if your order arrives damaged or doesn't meet your expectations. Please contact us within 2 hours of delivery with photos of any issues. Due to the perishable nature of our products, we cannot accept returns of undamaged items.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <button class="faq-question">
+                    How far in advance should I place my order?
+                    <span class="faq-toggle">+</span>
+                </button>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        For regular orders, 24 hours notice is preferred. For large orders (more than 20 pieces) or custom cakes, we recommend placing your order at least 3 days in advance. During peak seasons (Christmas, Easter, etc.), we suggest ordering at least a week in advance.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column" data-aos="fade-up">
+                <h3>Fairy's Bites</h3>
+                <p>Delight in every bite with our delicious baked goods. Made with love in Akwa Ibom.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/2347063676118"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="100">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="200">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#products">Cakes</a></li>
+                    <li><a href="#products">Pies</a></li>
+                    <li><a href="#products">Doughnuts</a></li>
+                    <li><a href="#products">Small Chops</a></li>
+                    <li><a href="#products">Breads</a></li>
+                    <li><a href="#products">Special Orders</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column" data-aos="fade-up" data-aos-delay="300">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> AKSU-Ikot Akpaden</li>
+                    <li><i class="fas fa-phone"></i> 07063676118</li>
+                    <li><i class="fas fa-phone"></i> 09119195116</li>
+                    <li><i class="fas fa-envelope"></i> fairysbites@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Fairy's Bites. All Rights Reserved.</p>
+            <p style="margin-top: 10px;">Built with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by <a href="https://godswill-owens.vercel.app/" style="color: var(--secondary);">Godswill Owen</a></p>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            offset: 120,
+            delay: 0, 
+            duration: 800, 
+            easing: 'ease', 
+            once: true,
+            mirror: false,
+            anchorPlacement: 'top-bottom',
+        });
+        
+        // Side menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sideMenu = document.querySelector('.side-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            sideMenu.classList.toggle('active');
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!sideMenu.contains(e.target) && e.target !== menuToggle) {
+                sideMenu.classList.remove('active');
+            }
+        });
+        
+        // FAQ toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', () => {
+                    // Close all other open items first
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current item
+                    item.classList.toggle('active');
+                });
+            });
+        });
+        
+        // Back to top button
+        const backToTop = document.querySelector('.back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('active');
+            } else {
+                backToTop.classList.remove('active');
+            }
+        });
+        
+        // Product category filtering
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        const productCards = document.querySelectorAll('.product-card');
+        
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                categoryBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const category = btn.dataset.category;
+                
+                // Filter products
+                productCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close side menu if open
+                    sideMenu.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
